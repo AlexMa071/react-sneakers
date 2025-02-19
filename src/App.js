@@ -69,7 +69,13 @@ function App() {
                 </ul>
             </header>
             <section className="content">
-                <h1 className="content__title">Все кроссовки</h1>
+                <div className="content__wrapp">
+                    <h1 className="content__title">Все кроссовки</h1>
+                    <div className="search-block">
+                        <img src="/img/search.svg" alt="Search" />
+                        <input placeholder="Поиск..." type="text" />
+                    </div>
+                </div>
                 <div className="content__card-flex">
                     <div className="content__card">
                         <img width={133} height={112} src="/img/sneakers/image1.jpg" alt="" />
