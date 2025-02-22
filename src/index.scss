@@ -61,12 +61,17 @@ li{
 .content{
 
   padding: 40px;
+  &__wrapp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; 
 
+  }
   &__title{
     font-weight: 700;
     font-size: 32px;
     color: #000;
-    padding-bottom: 40px; 
   }
   &__card{
     border: 1px solid #f3f3f3;
@@ -104,6 +109,16 @@ li{
 }
 
 .search-block{
+  display: flex;
   border: 1px solid #f3f3f3;
-
+  border-radius: 10px;
+  
+  img{
+    padding-left: 20px;
+  }
+  input{
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+  }  
 }
